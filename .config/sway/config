@@ -42,7 +42,7 @@ gaps outer 5
 
 exec_always autotiling
 exec mako # Notification
-exec sworkstyle &> /tmp/sworkstyle.log # Workspaces
+exec_always --no-startup-id workstyle &> /tmp/workstyle.log # Workspaces icons
 
 ### Key bindings
 #

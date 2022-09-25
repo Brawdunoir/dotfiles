@@ -30,8 +30,9 @@
 "music" = ""
 "disk usage" = ""
 ".pdf" = ""
-"discord" = ""
+"discord" = "ﭮ"
+"spotify" = ""
+"Code" = ""
 
 [other]
-fallback_icon = ""
-deduplicate_icons = false
+deduplicate_icons = true

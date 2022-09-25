@@ -16,12 +16,6 @@
         "disable-scroll": true,
         "all-outputs": true,
         "format": "{icon}"
-        // "format-icons": {
-        //     "1": "",
-        //     "3": "",
-        //     "4": "",
-        //     "5": "",
-        // }
     },
     "tray": {
         "icon-size": 21,
@@ -46,6 +40,6 @@
     "pulseaudio": {
         "scroll-step": 2.5,
         "format": "{volume}%",
-        }
     }
+}
 }

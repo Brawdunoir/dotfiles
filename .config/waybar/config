@@ -1,0 +1,51 @@
+{
+    "height": 30,
+    "modules-left": [
+        "sway/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "custom/network",
+        "network",
+        "pulseaudio",
+        "tray"
+    ],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}"
+        // "format-icons": {
+        //     "1": "",
+        //     "3": "",
+        //     "4": "",
+        //     "5": "",
+        // }
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "timezone": "Europe/Paris",
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip-format": "<big>{:%d %B %Y}</big>"
+    },
+    "custom/network": {
+        "exec": "curl ipconfig.io",
+        "format": "{}",
+        "interval": 60
+    },
+    "network": {
+        "format-ethernet": "{ipaddr}",
+        "format-wifi": "{ipaddr}",
+        "format-disconnected": "Disconnected"
+    },
+    "pulseaudio": {
+        "scroll-step": 2.5,
+        "format": "{volume}%",
+        }
+    }
+}

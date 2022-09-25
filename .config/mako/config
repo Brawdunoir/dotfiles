@@ -1,0 +1,8 @@
+max-history=3
+font=Roboto 11
+background-color=#2b2f3a
+width=400
+height=125
+border-color=#64727c
+icon-location=right
+default-timeout=7000

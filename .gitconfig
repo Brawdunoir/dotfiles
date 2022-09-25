@@ -1,0 +1,9 @@
+[user]
+	email = yann.lacroix.dev@gmail.com
+	name = Yann Lacroix
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true

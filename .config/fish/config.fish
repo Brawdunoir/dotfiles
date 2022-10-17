@@ -19,6 +19,15 @@ function sc -d "Take a screenshot" -a name
     end
 end
 
+######## Bunkerweb ########
+function unbanip -d "Unban an IP" -a ip
+    if test (count $argv) = 0
+        ssh server docker compose --project-directory ~/docker/bw exec mybunker bwcli unban 86.202.59.155
+    else
+        ssh server docker compose --project-directory ~/docker/bw exec mybunker bwcli unban $ip
+    end
+end
+
 ######## Config Management ########
 # From https://github.com/vazanoir/config
 function config

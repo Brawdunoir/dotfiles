@@ -1,40 +1,40 @@
 selection:
   save_to_clipboard: true
 
-# Colors (Night Owl)
-colors:
-   # Default colors
-  primary:
-    background: '#011627'
-    foreground: '#d6deeb'
-
-  cursor:
-    text: '#011627'
-    cursor: '#d6deeb'
-
-  selection:
-    background: '#1b90dd'
-
-   # Normal colors
+font:
   normal:
-    black:   '#011627'
-    red:     '#ef5350'
-    green:   '#22da6e'
-    yellow:  '#c5e478'
-    blue:    '#82aaff'
-    magenta: '#c792ea'
-    cyan:    '#21c7a8'
-    white:   '#ffffff'
+    family: Source Code Pro
+    style: medium
+  size: 10
 
+colors:
+  name: Ashes (dark)
+  author: Chris Kempson
+  primary:
+    background: "#1c2023"
+    foreground: "#c7ccd1"
+  cursor:
+    text: "#1c2023"
+    cursor: "#c7ccd1"
+  normal:
+    black: "#1c2023"
+    red: "#c7ae95"
+    green: "#95c7ae"
+    yellow: "#aec795"
+    blue: "#ae95c7"
+    magenta: "#c795ae"
+    cyan: "#95aec7"
+    white: "#c7ccd1"
   bright:
-    black:   '#575656'
-    red:     '#ef5350'
-    green:   '#22da6e'
-    yellow:  '#ffeb95'
-    blue:    '#82aaff'
-    magenta: '#c792ea'
-    cyan:    '#7fdbca'
-    white:   '#ffffff'
+    black: "#747c84"
+    red: "#c7ae95"
+    green: "#95c7ae"
+    yellow: "#aec795"
+    blue: "#ae95c7"
+    magenta: "#c795ae"
+    cyan: "#95aec7"
+    white: "#f3f4f5"
+theme: Ashes.dark
 
 cursor:
   style:

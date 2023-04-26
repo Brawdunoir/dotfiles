@@ -1,8 +1,12 @@
-max-history=3
+padding=10,0,10,20
+margin=0,0,7,0
+outer-margin=20,30,0,0
 font=Roboto 11
-background-color=#2b2f3a
+background-color=#1c2023
 width=400
 height=125
-border-color=#64727c
+border-color=#7A7F85
+border-size=1
+border-radius=7
 icon-location=right
 default-timeout=7000

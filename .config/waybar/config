@@ -1,44 +1,23 @@
 {
-    "height": 30,
-    "modules-left": [
-        "sway/workspaces"
-    ],
-    "modules-center": [
-        "clock"
-    ],
-    "modules-right": [
-        "custom/network",
-        "network",
-        "pulseaudio",
-        "tray"
-    ],
-    "sway/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
-        "format": "{icon}"
-    },
+    "layer": "top",
+    "output": "DP-1",
+    "spacing": 30,
+    "modules-right": ["cpu", "memory", "clock"],
+    "modules-left": ["tray"],
     "tray": {
-        "icon-size": 21,
         "spacing": 10
     },
     "clock": {
         "timezone": "Europe/Paris",
+        "format": "{:%H:%M:%S - %a %d %b %Y}",
         "interval": 1,
-        "format": "{:%H:%M:%S}",
-        "tooltip-format": "<big>{:%d %B %Y}</big>"
     },
-    "custom/network": {
-        "exec": "curl ipconfig.io",
-        "format": "{}",
-        "interval": 60
+    "cpu": {
+        "format": "CPU {usage}%",
+        "interval": 1,
     },
-    "network": {
-        "format-ethernet": "{ipaddr}",
-        "format-wifi": "{ipaddr}",
-        "format-disconnected": "Disconnected"
+    "memory": {
+        "format": "RAM {}%",
+        "interval": 1,
     },
-    "pulseaudio": {
-        "scroll-step": 2.5,
-        "format": "{volume}%"
-    }
 }

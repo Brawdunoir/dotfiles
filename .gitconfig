@@ -1,9 +1,14 @@
 [user]
 	email = yann.lacroix.dev@gmail.com
 	name = Yann Lacroix
+	signingkey = /home/brawdunoir/.ssh/id_rsa.pub
 [core]
 	editor = nano
 [init]
 	defaultBranch = main
 [push]
 	autoSetupRemote = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

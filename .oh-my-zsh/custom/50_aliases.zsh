@@ -9,3 +9,5 @@ alias grep=rg
 alias dc=docker-compose
 
 alias kc=kconf
+
+alias update "paru -Suy --skipreview --noconfirm && flatpak update --noninteractive && notify-send 'Updates done'"

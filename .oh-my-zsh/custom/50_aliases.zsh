@@ -10,4 +10,4 @@ alias dc=docker-compose
 
 alias kc=kconf
 
-alias update "paru -Suy --skipreview --noconfirm && flatpak update --noninteractive && notify-send 'Updates done'"
+alias update "paru -Suy --skipreview --noconfirm && notify-send 'Updates done'"
